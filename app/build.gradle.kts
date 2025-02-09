@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.packt.runningtrackerapp"
-    compileSdk = 34
+    namespace = "com.cmelchor.runningtrackerapp"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.packt.runningtrackerapp"
+        applicationId = "com.cmelchor.runningtrackerapp"
         minSdk = 28
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
