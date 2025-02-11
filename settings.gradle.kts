@@ -19,7 +19,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Running Tracker App"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+rootProject.name = "RunningTrackerApp"
 include(":app")
 include(":auth:data")
 include(":auth:domain")
